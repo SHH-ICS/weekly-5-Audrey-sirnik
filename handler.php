@@ -35,9 +35,9 @@
             $result = $result + $value;
             $n = $n + 1;
           }
+          $result = $result * 4;
+          echo "<h1>Your estimated value of Pi:" . $result . "</h1>\n";
         }
-        $result = $result * 4;
-        echo "<h1>Your estimated value of Pi:" . $result . "</h1>\n";
         else{
           echo "<h1>Error</h1>\n";
           echo "<h3>Please ensure the value you entered was a positive whole number</h3>\n";
